@@ -8,7 +8,7 @@ layeraoi是实现的一个AOI算法容器（目前最大容量64层），设计�
 
 layeraoi除了实现分层类型，还实现了单层内的动态分层。即单个层内，触发了负载的条件，那么这个层是会被分割的，即一个层变成两个层，同样的，一个单类层内的对象数目
 太少也可能会触发层合并。
-
+演示地址：http://121.5.223.223:8080/wasm_exec.html
 
 简单的图形
 ![image](https://github.com/hitong/layeraoi/blob/main/awesome/base.png)
